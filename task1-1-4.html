@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+
+			.center-div {
+				width: 400px;
+				height: 200px;
+				background: #ccc;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-left: -200px;
+				margin-top: -100px;
+			}
+
+			.left-top-yellow, .right-bottom-yellow {
+				height: 100px;
+				width: 100px;
+				border-radius: 50px;
+				background: #fc0;
+			}
+
+			.left-top-yellow {
+				/*margin-left: -50px;
+				margin-top: -50px;
+				z-index: */
+				position: relative;
+				top: -50px;
+				left: -50px;
+				/*z-index: -1;*/
+			}
+			
+			.top-white {
+				width: 100px;
+				height: 50px;
+				background: white;
+				position: relative;
+				top: -150px;
+				left: -50px;
+				z-index: 2;
+			}
+			.left-white {
+				width: 50px;
+				height: 50px;
+				background: white;
+				position: relative;
+				top: -150px;
+				left: -50px;
+				z-index: 2;
+			}
+
+			.right-bottom-yellow {
+				/*margin-left: -50px;
+				margin-top: -50px;
+				z-index: */
+				position: relative;
+				top: -50px;
+				left: 350px;
+				/*z-index: -1;*/
+			}
+
+			.right-white {
+				width: 50px;
+				height: 50px;
+				background: white;
+				position: relative;
+				top: -150px;
+				left: 400px;
+				z-index: 2;
+			}
+			.bottom-white {
+				width: 100px;
+				height: 50px;
+				background: white;
+				position: relative;
+				top: -150px;
+				left: 350px;
+				z-index: 2;
+			}
+
+		</style>
+	</head>
+
+	<body>
+	    <div class="center-div">
+	    	<div class="left-top-yellow"></div>
+	    	<div class="top-white"></div>
+	    	<div class="left-white"></div>
+	    	<div class="right-bottom-yellow"></div>
+	    	<div class="right-white"></div>
+	    	<div class="bottom-white"></div>
+	    </div>
+	</body>
+</html>
