@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors atong007 (atong007@icloud.com)
+ * @date    2017-03-28 16:30:12
+ * @version $Id$
+ */
+ html {
+ 	background: white;
+ }
+
+ body {
+	background: #eee;
+	margin: 0px 20px 20px 20px ;
+	border: solid 1px #999;
+	padding: 30px;
+}
+
+section {
+	border: solid 1px #999;
+	background: white;
+}
+
+#team-pic-section {
+	padding: 20px;
+	width: 200px;
+	box-sizing: border-box;
+	float: left;
+	font-size: 80%;
+}
+
+#team-pic-section img {
+	width: 80px;
+	height: 80px;
+	background: blue;
+}
+
+#team-pic-section span {
+	float: right;
+}
+
+#team-desc-section {
+	font-size: 15px;
+	margin-left: 220px;
+	margin-right: 140px;
+}
+
+#team-members-section {
+	width: 120px;
+	position: absolute;
+	right: 50px;
+	top: 30px;
+}
+
+#team-members-section img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors atong007 (atong@icloud.com)
+ * @date    2017-03-28 17:36:12
+ * @version $Id$
+ */
+.center-div {
+	width: 400px;
+	height: 200px;
+	background: #ccc;
+	margin-top: 20%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.left-top-yellow, .right-bottom-yellow {
+	height: 50px;
+	width: 50px;
+	background: #fc0;
+}
+
+.left-top-yellow {
+	border-bottom-right-radius: 100%;
+}
+
+.right-bottom-yellow {
+	position: relative;
+	top: 100px;
+	left: 350px;
+	border-top-left-radius: 100%;
+}
